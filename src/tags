@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+10	fft1d.f	/^   10 J=J+2$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+100	fft1d.f	/^  100 ZA1=A(K1+1)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+105	fft1d.f	/^  105 A(K0+1)=CMPLX(A0+A1+A2,B0+B1+B2)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+110	fft1d.f	/^  110 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+115	fft1d.f	/^  115 IF(L1.EQ.1) GO TO 120$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+120	fft1d.f	/^  120 JA=KB+ISP-1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+125	fft1d.f	/^  125 ZA1=A(K1+1)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+130	fft1d.f	/^  130 A(K0+1)=CMPLX(A0+A1+A2+A3,B0+B1+B2+B3)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+135	fft1d.f	/^  135 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+140	fft1d.f	/^  140 JK=KF-1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+145	fft1d.f	/^  145 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+15	fft1d.f	/^   15 I=K\/J$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+150	fft1d.f	/^  150 IF(KF.EQ.JF) GO TO 160$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+155	fft1d.f	/^  155 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+160	fft1d.f	/^  160 K0=K0-1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+165	fft1d.f	/^  165 ZA1=A(K1+1)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+170	fft1d.f	/^  170 WK(IAP+J)=A1+A2$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+175	fft1d.f	/^  175 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+180	fft1d.f	/^  180 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+185	fft1d.f	/^  185 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+190	fft1d.f	/^  190 IF(I.GE.MM) GO TO 195$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+195	fft1d.f	/^  195 I=MM$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+20	fft1d.f	/^   20 J=J+1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+200	fft1d.f	/^  200 JJ=IWK(IC+I-2)+JJ$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+205	fft1d.f	/^  205 IF(I.NE.MM) GO TO 210$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+210	fft1d.f	/^  210 IF(IWK(ILL+I).EQ.1)I=I+1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+215	fft1d.f	/^  215 I=1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+220	fft1d.f	/^  220 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+225	fft1d.f	/^  225 IF(KT.LE.0) GO TO 270$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+230	fft1d.f	/^  230 K2=IWK(ID+J)+KB$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+235	fft1d.f	/^  235 K=K0+JJ$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+240	fft1d.f	/^  240 ZA4=A(K0+1)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+245	fft1d.f	/^  245 K3=IWK(ID+J)+K3$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+25	fft1d.f	/^   25 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+250	fft1d.f	/^  250 IF(J.GE.KT) GO TO 260$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+255	fft1d.f	/^  255 I=I+1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+260	fft1d.f	/^  260 KB=K3$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+265	fft1d.f	/^  265 IF(KB.GE.N) GO TO 270$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+270	fft1d.f	/^  270 JK=IWK(IC+KT)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+275	fft1d.f	/^  275 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+280	fft1d.f	/^  280 JJ=IWK(ID+K+1)+JJ$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+285	fft1d.f	/^  285 IWK(ILL+J)=JJ$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+290	fft1d.f	/^  290 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+295	fft1d.f	/^  295 K2=IABS(IWK(ILL+K2))$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+30	fft1d.f	/^   30 MP=M+1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+300	fft1d.f	/^  300 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+305	fft1d.f	/^  305 J=J+1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+310	fft1d.f	/^  310 ZA4=A(K0+I+1)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+315	fft1d.f	/^  315 K=-IWK(ILL+K)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+320	fft1d.f	/^  320 A(JJ+I+1)=A(K0+I+1)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+325	fft1d.f	/^  325 A(K0+I+1)=CMPLX(WK(ITA+I),WK(ITB+I))$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+35	fft1d.f	/^   35 L=MP-I$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+40	fft1d.f	/^   40 I=I+1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+45	fft1d.f	/^   45 CONTINUE$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+5	fft1d.f	/^    5 I=K\/JJ$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+50	fft1d.f	/^   50 KB=0$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+55	fft1d.f	/^   55 IF(IWK(ILL+I+1).EQ.1) GO TO 60$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+60	fft1d.f	/^   60 KF=4$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+65	fft1d.f	/^   65 ISP=IWK(ID+I)$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+70	fft1d.f	/^   70 IF(KF.GT.4) GO TO 140$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+75	fft1d.f	/^   75 K0=KB+ISP$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+80	fft1d.f	/^   80 K0=K0-1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+85	fft1d.f	/^   85 K0=K0-1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+90	fft1d.f	/^   90 IF(L1.EQ.1) GO TO 95$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+9005	fft1d.f	/^ 9005 RETURN$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+95	fft1d.f	/^   95 JA=KB+ISP-1$/;"	kind:label	language:Fortran	subroutine:FFTCC	file:
+BACK	Makefile	/^BACK   =$(BackDir)\/$(Projn)_back_$(Date).tgz$/;"	kind:macro	language:Make
+BackDir	Makefile	/^BackDir=~\/$/;"	kind:macro	language:Make
+Back_Content	Makefile	/^Back_Content=$(shell basename $(shell pwd))$/;"	kind:macro	language:Make
+BinDir	Makefile	/^BinDir =..\/bin$/;"	kind:macro	language:Make
+CObj	Makefile	/^CObj   =$(addprefix $(ObjDir)\/,$(CObj0))$/;"	kind:macro	language:Make
+CObj0	Makefile	/^CObj0  =$(patsubst %.c,%.o,${CSrc})$/;"	kind:macro	language:Make
+CPP_CMPL	Makefile	/^CPP_CMPL=$(CPP_CMPL_0) -DARMA_ALLOW_FAKE_GCC$/;"	kind:macro	language:Make
+CPP_CMPL_0	Makefile	/^CPP_CMPL_0=icpc$/;"	kind:macro	language:Make
+CPP_CMPL_FLAG	Makefile	/^CPP_CMPL_FLAG = $(addprefix -I, ${IncDir})$/;"	kind:macro	language:Make
+CSrc	Makefile	/^CSrc   =$(wildcard *.c)$/;"	kind:macro	language:Make
+C_CMPL	Makefile	/^C_CMPL  =gcc$/;"	kind:macro	language:Make
+C_CMPL_FLAG	Makefile	/^C_CMPL_FLAG   = $(addprefix -I, ${IncDir})$/;"	kind:macro	language:Make
+CppObj	Makefile	/^CppObj =$(addprefix $(ObjDir)\/,$(CppObj0))$/;"	kind:macro	language:Make
+CppObj0	Makefile	/^CppObj0=$(patsubst %.cpp,%.o,${CppSrc})$/;"	kind:macro	language:Make
+CppSrc	Makefile	/^CppSrc =$(wildcard *.cpp)$/;"	kind:macro	language:Make
+DatDir	Makefile	/^DatDir =..\/file$/;"	kind:macro	language:Make
+Date	Makefile	/^Date=$(shell date +%F_time%H)$/;"	kind:macro	language:Make
+EXE	Makefile	/^EXE    =$(BinDir)\/$(Projn).e$/;"	kind:macro	language:Make
+F77Obj	Makefile	/^F77Obj =$(addprefix $(ObjDir)\/,$(F77Obj0))$/;"	kind:macro	language:Make
+F77Obj0	Makefile	/^F77Obj0=$(patsubst %.f,%.o,${F77Src})$/;"	kind:macro	language:Make
+F77Src	Makefile	/^F77Src =$(wildcard *.f)$/;"	kind:macro	language:Make
+F90Obj	Makefile	/^F90Obj =$(addprefix $(ObjDir)\/,$(F90Obj0))$/;"	kind:macro	language:Make
+F90Obj0	Makefile	/^F90Obj0=$(patsubst %.f90,%.o,${F90Src})$/;"	kind:macro	language:Make
+F90Src	Makefile	/^F90Src =$(wildcard *.f90)$/;"	kind:macro	language:Make
+FFT1D	fft1d.f	/^       SUBROUTINE  FFT1D(/;"	kind:subroutine	language:Fortran
+FFTCC	fft1d.f	/^      SUBROUTINE FFTCC(/;"	kind:subroutine	language:Fortran
+FFTCC1	myfft.cpp	/^void FFTCC1(int isign, fcomplex *z, int n)$/;"	kind:function	language:C++	signature:(int isign, fcomplex *z, int n)
+FFTCC2	myfft.cpp	/^void FFTCC2(int isign1, int isign2, fcomplex *zz, int n1, int n2,fcomplex *work)$/;"	kind:function	language:C++	signature:(int isign1, int isign2, fcomplex *zz, int n1, int n2,fcomplex *work)
+FFTCC3	myfft.cpp	/^void FFTCC3(int isign1   , int isign2 , int isign3 ,$/;"	kind:function	language:C++	signature:(int isign1 , int isign2 , int isign3 , int n1 , int n2 , int n3 , fcomplex *zz , int LevelVerbose)
+F_CMPL	Makefile	/^F_CMPL  =gfortran$/;"	kind:macro	language:Make
+F_CMPL_FLAG	Makefile	/^F_CMPL_FLAG   =$/;"	kind:macro	language:Make
+HAMMING_COE	fft1d.f	/^      SUBROUTINE HAMMING_COE(/;"	kind:subroutine	language:Fortran
+HAMMING_WINDOW	fft1d.f	/^      SUBROUTINE HAMMING_WINDOW(/;"	kind:subroutine	language:Fortran
+IncDir	Makefile	/^IncDir =..\/inc$/;"	kind:macro	language:Make
+LINKER	Makefile	/^LINKER  =$(CPP_CMPL_0)$/;"	kind:macro	language:Make
+LINKER_FLAG	Makefile	/^LINKER_FLAG   = $(addprefix -L, ${LibDir} )  -lgfortran -larmadillo$/;"	kind:macro	language:Make
+LINKLIBS	Makefile	/^LINKLIBS	  = -lm$/;"	kind:macro	language:Make
+LibDir	Makefile	/^LibDir =..\/lib$/;"	kind:macro	language:Make
+Norm2Sq	addnoise_by_snr.hpp	/^float Norm2Sq(const Cube<T>& A)$/;"	kind:function	language:C++	signature:(const Cube<T>& A)
+Norm2Sq	addnoise_by_snr.hpp	/^float Norm2Sq(const arma::Mat<T>& A)$/;"	kind:function	language:C++	signature:(const arma::Mat<T>& A)
+OBJ	Makefile	/^OBJ    =$(CObj) $(CppObj) $(F90Obj) $(F77Obj)$/;"	kind:macro	language:Make
+ONE_TRACE_FFT	fft1d.f	/^      SUBROUTINE ONE_TRACE_FFT(/;"	kind:subroutine	language:Fortran
+ObjDir	Makefile	/^ObjDir =..\/obj$/;"	kind:macro	language:Make
+Projn	Makefile	/^Projn   =LinearRadonTransform$/;"	kind:macro	language:Make
+addGaussianNoiseBySNR	addnoise_by_snr.hpp	/^void addGaussianNoiseBySNR(arma::Mat<T> & data, float SNR_db)$/;"	kind:function	language:C++	signature:(arma::Mat<T> & data, float SNR_db)
+alloc1	alloc.cpp	/^void *alloc1 (size_t n1, size_t size)$/;"	kind:function	language:C++	signature:(size_t n1, size_t size)
+alloc1double	alloc.cpp	/^double *alloc1double(size_t n1)$/;"	kind:function	language:C++	signature:(size_t n1)
+alloc1float	alloc.cpp	/^float *alloc1float(size_t n1)$/;"	kind:function	language:C++	signature:(size_t n1)
+alloc1int	alloc.cpp	/^int *alloc1int(size_t n1)$/;"	kind:function	language:C++	signature:(size_t n1)
+alloc2	alloc.cpp	/^void **alloc2 (size_t n1, size_t n2, size_t size)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t size)
+alloc2double	alloc.cpp	/^double **alloc2double(size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2)
+alloc2float	alloc.cpp	/^float **alloc2float(size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2)
+alloc2int	alloc.cpp	/^int **alloc2int(size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2)
+alloc2ushort	alloc.cpp	/^unsigned short **alloc2ushort(size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2)
+alloc3	alloc.cpp	/^void ***alloc3 (size_t n1, size_t n2, size_t n3, size_t size)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t size)
+alloc3double	alloc.cpp	/^double ***alloc3double(size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3)
+alloc3float	alloc.cpp	/^float ***alloc3float(size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3)
+alloc3int	alloc.cpp	/^int ***alloc3int(size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3)
+alloc3ushort	alloc.cpp	/^unsigned short ***alloc3ushort(size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3)
+alloc4	alloc.cpp	/^void ****alloc4 (size_t n1, size_t n2, size_t n3, size_t n4, size_t size)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t size)
+alloc4float	alloc.cpp	/^float ****alloc4float(size_t n1, size_t n2, size_t n3, size_t n4)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4)
+alloc4int	alloc.cpp	/^int ****alloc4int(size_t n1, size_t n2, size_t n3, size_t n4)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4)
+alloc5	alloc.cpp	/^void *****alloc5 (size_t n1, size_t n2, size_t n3, size_t n4, size_t n5, size_t size)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5, size_t size)
+alloc5float	alloc.cpp	/^float *****alloc5float(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5)
+alloc5int	alloc.cpp	/^int *****alloc5int(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5)
+alloc5uchar	alloc.cpp	/^unsigned char *****alloc5uchar(size_t n1, size_t n2, size_t n3,$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5)
+alloc5ushort	alloc.cpp	/^unsigned short *****alloc5ushort(size_t n1, size_t n2, size_t n3,$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5)
+alloc6	alloc.cpp	/^void ******alloc6 (size_t n1, size_t n2, size_t n3, size_t n4, size_t n5, size_t n6,$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5, size_t n6, size_t size)
+alloc6float	alloc.cpp	/^float ******alloc6float(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5, size_t n6)$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5, size_t n6)
+alloc6ushort	alloc.cpp	/^unsigned short ******alloc6ushort(size_t n1, size_t n2, size_t n3,$/;"	kind:function	language:C++	signature:(size_t n1, size_t n2, size_t n3, size_t n4, size_t n5, size_t n6)
+cadd	complex.c	/^complex cadd(complex a, complex b)$/;"	kind:function	language:C	signature:(complex a, complex b)
+cdiv	complex.c	/^complex cdiv(complex a, complex b)$/;"	kind:function	language:C	signature:(complex a, complex b)
+cg_func	group_lasso_func.cpp	/^void cg_func( const void *In_A_raw, void *Out_x_raw, const void *In_d_raw, const int *Np, const float *errr)$/;"	kind:function	language:C++	signature:( const void *In_A_raw, void *Out_x_raw, const void *In_d_raw, const int *Np, const float *errr)
+cg_func	group_lasso_func.cpp	/^void cg_func( const void *In_A_raw, void *Out_x_raw, const void *In_d_raw,$/;"	kind:prototype	language:C++	file:	signature:( const void *In_A_raw, void *Out_x_raw, const void *In_d_raw, const int *Np, const float *errr)
+cinv	complex.c	/^complex cinv(complex z)$/;"	kind:function	language:C	signature:(complex z)
+cmplx	complex.c	/^complex cmplx(float re, float im)$/;"	kind:function	language:C	signature:(float re, float im)
+cmul	complex.c	/^complex cmul(complex a, complex b)$/;"	kind:function	language:C	signature:(complex a, complex b)
+cneg	complex.c	/^complex cneg(complex z)$/;"	kind:function	language:C	signature:(complex z)
+conjg	complex.c	/^complex conjg(complex z)$/;"	kind:function	language:C	signature:(complex z)
+crmul	complex.c	/^complex crmul(complex a, float x)$/;"	kind:function	language:C	signature:(complex a, float x)
+csub	complex.c	/^complex csub(complex a, complex b)$/;"	kind:function	language:C	signature:(complex a, complex b)
+divider	Makefile	/^divider="--------------------------------------------------------------------------------"$/;"	kind:macro	language:Make
+ex_tar	Makefile	/^ex_tar ="--exclude=*.sw? --exclude=*.log --exclude=*.[oe]"$/;"	kind:macro	language:Make
+fcomplex	group_lasso_func.cpp	/^typedef complex<float> fcomplex;$/;"	kind:typedef	language:C++	file:
+free1	alloc.cpp	/^void free1 (void *p)$/;"	kind:function	language:C++	signature:(void *p)
+free1double	alloc.cpp	/^void free1double(double *p)$/;"	kind:function	language:C++	signature:(double *p)
+free1float	alloc.cpp	/^void free1float(float *p)$/;"	kind:function	language:C++	signature:(float *p)
+free1int	alloc.cpp	/^void free1int(int *p)$/;"	kind:function	language:C++	signature:(int *p)
+free2	alloc.cpp	/^void free2 (void **p)$/;"	kind:function	language:C++	signature:(void **p)
+free2double	alloc.cpp	/^void free2double(double **p)$/;"	kind:function	language:C++	signature:(double **p)
+free2float	alloc.cpp	/^void free2float(float **p)$/;"	kind:function	language:C++	signature:(float **p)
+free2int	alloc.cpp	/^void free2int(int **p)$/;"	kind:function	language:C++	signature:(int **p)
+free2ushort	alloc.cpp	/^void free2ushort(unsigned short **p)$/;"	kind:function	language:C++	signature:(unsigned short **p)
+free3	alloc.cpp	/^void free3 (void ***p)$/;"	kind:function	language:C++	signature:(void ***p)
+free3double	alloc.cpp	/^void free3double(double ***p)$/;"	kind:function	language:C++	signature:(double ***p)
+free3float	alloc.cpp	/^void free3float(float ***p)$/;"	kind:function	language:C++	signature:(float ***p)
+free3int	alloc.cpp	/^void free3int(int ***p)$/;"	kind:function	language:C++	signature:(int ***p)
+free3ushort	alloc.cpp	/^void free3ushort(unsigned short ***p)$/;"	kind:function	language:C++	signature:(unsigned short ***p)
+free4	alloc.cpp	/^void free4 (void ****p)$/;"	kind:function	language:C++	signature:(void ****p)
+free4float	alloc.cpp	/^void free4float(float ****p)$/;"	kind:function	language:C++	signature:(float ****p)
+free4int	alloc.cpp	/^void free4int(int ****p)$/;"	kind:function	language:C++	signature:(int ****p)
+free5	alloc.cpp	/^void free5 (void *****p)$/;"	kind:function	language:C++	signature:(void *****p)
+free5float	alloc.cpp	/^void free5float(float *****p)$/;"	kind:function	language:C++	signature:(float *****p)
+free5int	alloc.cpp	/^void free5int(int *****p)$/;"	kind:function	language:C++	signature:(int *****p)
+free5uchar	alloc.cpp	/^void free5uchar(unsigned char *****p)$/;"	kind:function	language:C++	signature:(unsigned char *****p)
+free5ushort	alloc.cpp	/^void free5ushort(unsigned short *****p)$/;"	kind:function	language:C++	signature:(unsigned short *****p)
+free6	alloc.cpp	/^void free6 (void ******p)$/;"	kind:function	language:C++	signature:(void ******p)
+free6float	alloc.cpp	/^void free6float(float ******p)$/;"	kind:function	language:C++	signature:(float ******p)
+free6ushort	alloc.cpp	/^void free6ushort(unsigned short ******p)$/;"	kind:function	language:C++	signature:(unsigned short ******p)
+group_lasso_func	group_lasso_func.cpp	/^void group_lasso_func(fcomplex *In_A_raw, fcomplex *Out_x_raw, fcomplex *In_d_raw,$/;"	kind:function	language:C++	signature:(fcomplex *In_A_raw, fcomplex *Out_x_raw, fcomplex *In_d_raw, int *Nhx, int *Np, float *errr)
+lasso_func	group_lasso_func.cpp	/^void lasso_func(const void *In_A_raw, void *Out_x_raw,const void *In_d_raw,$/;"	kind:prototype	language:C++	file:	signature:(const void *In_A_raw, void *Out_x_raw,const void *In_d_raw, const int *Np, const float *errr)
+lasso_func	group_lasso_func.cpp	/^void lasso_func(const void *In_A_raw, void *Out_x_raw,const void *In_d_raw,const int *Np, const float *errr)$/;"	kind:function	language:C++	signature:(const void *In_A_raw, void *Out_x_raw,const void *In_d_raw,const int *Np, const float *errr)
+main	alloc.cpp	/^main()$/;"	kind:function	language:C++	signature:()
+main	main.cpp	/^int main()$/;"	kind:function	language:C++	signature:()
+rcabs	complex.c	/^float rcabs(complex z)$/;"	kind:function	language:C	signature:(complex z)
+realloc1	alloc.cpp	/^void *realloc1(void *v, size_t n1, size_t size)$/;"	kind:function	language:C++	signature:(void *v, size_t n1, size_t size)
+realloc1double	alloc.cpp	/^double *realloc1double(double *v, size_t n1)$/;"	kind:function	language:C++	signature:(double *v, size_t n1)
+realloc1float	alloc.cpp	/^float *realloc1float(float *v, size_t n1)$/;"	kind:function	language:C++	signature:(float *v, size_t n1)
+realloc1int	alloc.cpp	/^int *realloc1int(int *v, size_t n1)$/;"	kind:function	language:C++	signature:(int *v, size_t n1)
+zero1double	alloc.cpp	/^void zero1double(double *p, size_t n1)$/;"	kind:function	language:C++	signature:(double *p, size_t n1)
+zero1float	alloc.cpp	/^void zero1float(float *p, size_t n1)$/;"	kind:function	language:C++	signature:(float *p, size_t n1)
+zero1int	alloc.cpp	/^void zero1int(int *p, size_t n1)$/;"	kind:function	language:C++	signature:(int *p, size_t n1)
+zero2double	alloc.cpp	/^void zero2double(double **p, size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(double **p, size_t n1, size_t n2)
+zero2float	alloc.cpp	/^void zero2float(float **p, size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(float **p, size_t n1, size_t n2)
+zero2int	alloc.cpp	/^void zero2int(int **p, size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(int **p, size_t n1, size_t n2)
+zero2ushort	alloc.cpp	/^void zero2ushort(unsigned short **p, size_t n1, size_t n2)$/;"	kind:function	language:C++	signature:(unsigned short **p, size_t n1, size_t n2)
+zero3double	alloc.cpp	/^void zero3double(double ***p, size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(double ***p, size_t n1, size_t n2, size_t n3)
+zero3float	alloc.cpp	/^void zero3float(float ***p, size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(float ***p, size_t n1, size_t n2, size_t n3)
+zero3int	alloc.cpp	/^void zero3int(int ***p, size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(int ***p, size_t n1, size_t n2, size_t n3)
+zero3ushort	alloc.cpp	/^void zero3ushort(unsigned short ***p, size_t n1, size_t n2, size_t n3)$/;"	kind:function	language:C++	signature:(unsigned short ***p, size_t n1, size_t n2, size_t n3)
+zero4float	alloc.cpp	/^void zero4float(float ****p, size_t n1, size_t n2, size_t n3, size_t n4)$/;"	kind:function	language:C++	signature:(float ****p, size_t n1, size_t n2, size_t n3, size_t n4)
